@@ -6,4 +6,9 @@ h1 {
 
 body {
     background-color: rgb(200, 255, 174);
+    
+}
+
+p {
+    text-align: center;
 }
