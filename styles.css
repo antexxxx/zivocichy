@@ -47,7 +47,7 @@ p {
     font-family: scribble-light;
 }
 
-.buttons {
+.button-start {
     display: inline-flex;
     align-items: center;
     background-color: rgb(153, 211, 104);
@@ -62,9 +62,34 @@ p {
 .start-text {
     font-size: 7vh;
     margin: 1vw;
+    color: darkgreen;
 }
 
 .play {
     width: auto;
     height: 7vh;
+}
+
+.buttons {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttons-extra {
+    display: inline-flex;
+    justify-content: left;
+    width: 100%;
+    gap: 2vw;
+}
+
+.about-text {
+    font-size: 4vh;
+    margin: 1vw;
+    color: white;
+    background-color: rgb(43, 159, 0);
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 0px;
+    width: 100%;
 }
